@@ -1,0 +1,6 @@
+com/priceline/hackathon/covidsafetravel/CovidSafeTravelApplication.class
+com/priceline/hackathon/covidsafetravel/domain/CovidDataResponse.class
+com/priceline/hackathon/covidsafetravel/config/MemoryStoreConfig.class
+com/priceline/hackathon/covidsafetravel/service/CacheConnectorImpl.class
+com/priceline/hackathon/covidsafetravel/config/RedisConfig.class
+com/priceline/hackathon/covidsafetravel/service/CacheConnector.class
