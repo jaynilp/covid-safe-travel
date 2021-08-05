@@ -31,9 +31,10 @@ public class CovidSafeTravelController {
 
     String key = city==null?country:country+"-"+city;
 
-    TravelRestrictionsResponseContainer travelRestrictionsResponseContainer = cacheConnector.get(key);
+    TravelRestrictionsResponseContainer travelRestriction
+    sResponseContainer = cacheConnector.get(key);
 
-      return travelRestrictionsResponseContainer==null?ping(country, city)
+      return travelRestrictionsResponseContainer==null?getTravelRestrictions(country, city)
           .map(
               (travelRestrictionsResponseContainer1 ->
                   cacheConnector.put(key, travelRestrictionsResponseContainer1))):Mono.just(travelRestrictionsResponseContainer);
@@ -50,9 +51,9 @@ public class CovidSafeTravelController {
     return object;
   }
 
-  @GetMapping(value = "/ping")
+  @GetMapping(value = "/travelRestrictions")
   @ResponseBody
-  public Mono<TravelRestrictionsResponseContainer> ping(@RequestParam String country , @RequestParam String city) {
+  public Mono<TravelRestrictionsResponseContainer> getTravelRestrictions(@RequestParam String country , @RequestParam String city) {
 
     System.out.println("Testing application");
     Mono<TravelRestrictionsResponseContainer> travelRestrictions = supplyConnector

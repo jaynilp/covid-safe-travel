@@ -1,7 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.service;
 
 import com.priceline.hackathon.covidsafetravel.entity.CovidSurvey;
-import com.priceline.hackathon.covidsafetravel.repository.CovidSurveyRespository;
+import com.priceline.hackathon.covidsafetravel.repository.CovidSurveyRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class SurveyService {
 
-  @Autowired CovidSurveyRespository covidSurveyRespository;
+  @Autowired
+  CovidSurveyRepository covidSurveyRespository;
 
   public List<CovidSurvey> getCovidSurveyForSource(String source) {
     List<CovidSurvey> covidSurveysBySourceEqualsOrderByDateDesc =

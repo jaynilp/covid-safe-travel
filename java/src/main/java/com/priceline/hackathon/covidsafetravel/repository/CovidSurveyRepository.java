@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CovidSurveyRespository extends CrudRepository<CovidSurvey, Long> {
+public interface CovidSurveyRepository extends CrudRepository<CovidSurvey, Long> {
   List<CovidSurvey> findCovidSurveysBySourceOrderByDateDesc(String source);
 
   List<CovidSurvey> findCovidSurveysByDestinationOrderByDateDesc(String destination);

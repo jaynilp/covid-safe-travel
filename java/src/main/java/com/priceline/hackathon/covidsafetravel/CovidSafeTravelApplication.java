@@ -1,18 +1,14 @@
 package com.priceline.hackathon.covidsafetravel;
 
-import com.priceline.hackathon.covidsafetravel.service.CacheConnectorImpl;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
+@EntityScan(basePackages={"com.priceline.hackathon.covidsafetravel.entity"})
+@EnableJpaRepositories(basePackages={"com.priceline.hackathon.covidsafetravel.repository"})
 public class CovidSafeTravelApplication {
-
-
 
   public static void main(String[] args) {
     SpringApplication.run(CovidSafeTravelApplication.class, args);
