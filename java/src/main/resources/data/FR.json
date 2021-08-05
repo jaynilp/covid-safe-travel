@@ -1,0 +1,835 @@
+{
+    "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/diseases/covid19-area-report?countryCode=FR"
+        }
+    },
+    "data": {
+        "area": {
+            "name": "France",
+            "iataCode": "FR",
+            "areaType": "Country"
+        },
+        "summary": "<p>Health officials confirmed on 24 January 2020 that three cases of COVID-19 were detected in Paris and Bordeaux, the first cases to be confirmed in the European Union (EU). The outbreak has resulted in one of the highest number of deaths in Europe and prompted three nationwide lockdowns. On 9 June, France reopened to vaccinated travellers from most countries, before easing COVID-19 measures further in its final stage of reopening on 30 June. In July 2021, officials declared that the country entered a fourth wave of the pandemic following an increase in cases driven by the spread of the Delta virus variant.</p>",
+        "diseaseRiskLevel": "High",
+        "diseaseInfection": {
+            "date": "2021-07-25",
+            "level": "Extreme",
+            "rate": 269.31,
+            "infectionMapLink": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees"
+        },
+        "diseaseCases": {
+            "date": "2021-06-22",
+            "deaths": 109928,
+            "confirmed": 5694975
+        },
+        "hotspots": "<p>Île-de-France region</p>",
+        "dataSources": {
+            "covidDashboardLink": "https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde",
+            "healthDepartementSiteLink": "https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19",
+            "governmentSiteLink": "https://www.gouvernement.fr/info-coronavirus"
+        },
+        "areaRestrictions": [
+            {
+                "date": "2021-08-04",
+                "text": "<p>On 9 August, a COVID-19 health pass is expected to be mandatory for long-distance journeys on buses, planes and trains.</p>",
+                "restrictionType": "Domestic Travel"
+            },
+            {
+                "date": "2021-08-04",
+                "text": "<p>A COVID-19 health pass (pass sanitaire) is required for access to large events with more than 1,000 people in the audience, as well as cultural and leisure spaces with more than 50 people. The health pass is available to those who have been vaccinated, recovered or tested negative for COVID-19. In order to be used to obtain a Health Pass, individuals may present any three of the following: a vaccine administered in the European Union (EU), proof of recovery between 11 days-6 months after a positive COVID-19 test or a negative PCR test result, obtained 72 hours prior and antigen test 48 hours prior to application. The pass can be obtained from the <a href=\"https://bonjour.tousanticovid.gouv.fr/\" target=\"_blank\" rel=\"noopener\">TousAntiCovid app</a>.</p> <p>From 9 August, the requirement to present a health pass will apply to additional spaces, including cafes, restaurants, shopping centres, as well as buses, trains and planes for long-distance journeys.</p> <p>French nationals and residents who have been vaccinated in a non-EU country, except Andorra, Iceland, Liechtenstein, Monaco, Norway, the United Kingdom (UK) and Switzerland, can request a health pass online, provided that the vaccine is recognised by the European Medicines Agency (EMA) (<a href=\"https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/actualites-du-ministere/informations-coronavirus-covid-19/coronavirus-declarations-et-communiques/article/communique-passe-sanitaire-pour-les-francais-de-l-etranger-et-leurs-ayants\" target=\"_blank\" rel=\"noopener\">https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/actualites-du-ministere/informations-coronavirus-covid-19/coronavirus-declarations-et-communiques/article/communique-passe-sanitaire-pour-les-francais-de-l-etranger-et-leurs-ayants</a>). Non-EU travellers can take a PCR test in France or present their vaccination certificate at a pharmacy for a QR code that can be used to obtain a health pass.</p>",
+                "restrictionType": "Others"
+            }
+        ],
+        "areaAccessRestriction": {
+            "transportation": {
+                "date": "2021-08-04",
+                "text": "<p>Major hubs are open. Air France and other carriers are operating flights with reduced capacity.</p>",
+                "isBanned": "No"
+            },
+            "declarationDocuments": {
+                "date": "2021-08-04",
+                "text": "<p>All travellers wishing to enter France, including nationals, are required to complete and present a sworn statement confirming that they do not have COVID-19 symptoms, they are not aware of contact with a confirmed case of COVID-19 within the last 14 days and they will be compliant with testing or quarantine requirements upon arrival.</p>",
+                "documentRequired": "Yes",
+                "healthDocumentationLink": "https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-et-de-voyage",
+                "travelDocumentationLink": "https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-et-de-voyage"
+            },
+            "entry": {
+                "date": "2021-08-04",
+                "text": "<p>As of 17 July, all vaccinated travellers from “green”, “orange” and “red” countries are permitted entry regardless of their purpose of travel.</p> <p>The country is open to travel from \"green\" countries - European Union (EU) member states, Andorra, Iceland, Liechtenstein, Monaco, Norway, San Marino, Switzerland and the Vatican, as well as Albania, Australia, Bosnia and Herzegovina, Brunei, Canada, Comoros, Hong Kong, Israel, Japan, Kosovo, Lebanon, Montenegro, New Zealand, North Macedonia, Saudi Arabia, Serbia, Singapore, South Korea, Taiwan, Ukraine, the United States (US) and Vanuatu. Travellers from \"green\" countries are permitted entry regardless of their purpose of travel or vaccination status.</p> <p>Non-essential travel is not permitted for unvaccinated travellers from \"orange\" countries - all other countries that are not \"green\". Unvaccinated travellers from \"orange\" countries must continue to demonstrate a compelling reason for travel to be permitted entry.</p> <p>Unvaccinated foreign nationals are not permitted entry from high COVID-19 risk \"red\" countries - Afghanistan, Argentina, Bangladesh, Brazil, Colombia, Costa Rica, Cuba, Democratic Republic of Congo, Indonesia, Maldives, Mozambique, Namibia, Nepal, Oman, Pakistan, Paraguay, Russia, Seychelles, South Africa, Suriname and Tunisia - unless they have compelling reasons for travel. Residents of France and family members of French nationals will continue to be permitted entry, regardless of their vaccination status.</p>",
+                "ban": "Partial",
+                "throughDate": "indef",
+                "rules": "https://www.diplomatie.gouv.fr/en/coming-to-france/coronavirus-advice-for-foreign-nationals-in-france/",
+                "exemptions": "https://www.diplomatie.gouv.fr/en/coming-to-france/coronavirus-advice-for-foreign-nationals-in-france/",
+                "bannedArea": [
+                    {
+                        "iataCode": "AE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ER",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ET",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ID",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ML",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "OM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "QA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ST",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "YE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZW",
+                        "areaType": "country"
+                    }
+                ]
+            },
+            "diseaseTesting": {
+                "date": "2021-08-04",
+                "text": "<p><strong>Before travel</strong></p> <p>Unvaccinated travellers from \"green\" countries must present a negative PCR or antigen test that was taken within 72 hours before departure. Those who reside within 30km of the French border are exempt, provided that the duration of their travel does not exceed 24 hours. Hauliers and those who are making work-related trips and cannot take COVID-19 tests due to the frequent or urgent nature of their travel are also exempt.</p> <p>Unvaccinated travellers from \"orange\" countries must present a negative PCR test no older than 72 hours or an antigen test no older than 48 hours.</p> <p>Unvaccinated travellers arriving from Cyprus, Greece, the Netherlands, Spain, Portugal and the United Kingdom (UK) must present a negative PCR or antigen test that was taken within 24 hours before boarding.</p> <p>Unvaccinated travellers arriving from \"red\" countries must present a negative PCR or antigen test result no older than 48 hours at the time of boarding.</p> <p><strong>Upon arrival</strong></p> <p>Unvaccinated travellers arriving from \"red\" countries must take an additional COVID-19 test at the airport.</p> <p>Unvaccinated travellers from \"orange\" countries can also be subject to COVID-19 testing upon arrival.</p>",
+                "isRequired": "Yes",
+                "when": "Before travel, Upon arrival",
+                "requirement": "Mandatory",
+                "rules": "https://www.diplomatie.gouv.fr/en/coming-to-france/coronavirus-advice-for-foreign-nationals-in-france/",
+                "testType": "PCR, Antigen",
+                "minimumAge": 11,
+                "validityPeriod": {
+                    "delay": "P72H",
+                    "referenceDateType": "Departure"
+                }
+            },
+            "tracingApplication": {
+                "date": "2021-08-04",
+                "text": "<p>\"Tous Anti-Covid\" is an optional mobile app for contact tracing.</p>",
+                "isRequired": "Recommended",
+                "iosUrl": [
+                    "https://apps.apple.com/us/app/stopcovid-france/id1511279125"
+                ],
+                "androidUrl": [
+                    "https://play.google.com/store/apps/details?id=fr.gouv.android.stopcovid&hl=en_US&gl=US"
+                ]
+            },
+            "mask": {
+                "date": "2021-08-04",
+                "text": "<p>From 17 June, the statewide mandate to wear a mask in outdoor public spaces was lifted, except in markets, in a queue and stadiums. Face masks remain mandatory on public transport and in all enclosed public spaces, as well as in the workplace.</p> <p>Face masks must be worn inflight. A disposable, surgical-type mask must be worn when onboard planes; passengers wearing reusable face masks have been denied boarding. Air France passengers are asked to wear a surgical mask from the moment they arrive at the airport and for the duration of the flight.</p>",
+                "isRequired": "Partial"
+            },
+            "exit": {
+                "date": "2021-08-04",
+                "text": "<p>Unvaccinated travellers seeking to travel to an \"orange\" country - any country not on the \"green\" or \"red\" list - must complete a certificate of international travel (<a href=\"https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Certificate-of-international-travel\" target=\"_blank\" rel=\"noopener\">https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Certificate-of-international-travel</a>). Travel to one's country of origin or residence will continue to be permitted.</p> <p>All travel to \"red\" countries is strongly discouraged. Both unvaccinated and vaccinated travellers must complete a certificate of international travel (<a href=\"https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Certificate-of-international-travel\" target=\"_blank\" rel=\"noopener\">https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Certificate-of-international-travel</a>).</p>",
+                "specialRequirements": "Yes",
+                "rulesLink": "https://www.gouvernement.fr/info-coronavirus",
+                "isBanned": "Recommended"
+            },
+            "otherRestriction": {
+                "date": "2021-08-04"
+            },
+            "diseaseVaccination": {
+                "date": "2021-08-04",
+                "text": "<p>Fully vaccinated travellers arriving from \"green\", \"orange\" and \"red\" list countries are now exempt from all travel requirements before and upon arrival in France. Proof of vaccination is required in the form of a paper certificate or via the notebook function of the TousAntiCovid app.</p> <p>Those who have been vaccinated or recovered from COVID-19 can obtain a health pass (pass sanitaire) through mobile app TousAntiCovid (<a href=\"https://bonjour.tousanticovid.gouv.fr/\" target=\"_blank\" rel=\"noopener\">https://bonjour.tousanticovid.gouv.fr/</a>) for access to large events. The vaccine must be approved by the European Medicines Agency (EMA) and administered in the EU. At least 14 days must have passed since the final dose of a two-dose vaccine and at least 28 days must have passed for a single-dose vaccine. For those who received a vaccine after recovering from the virus, proof of vaccination is also valid after more than 14 days passed since the first dose. Proof of recovery is valid between 11-180 days after a positive COVID-19 test was issued.</p>",
+                "isRequired": "No",
+                "referenceLink": "https://www.gouvernement.fr/info-coronavirus/pass-sanitaire",
+                "acceptedCertificates": [
+                    "Paper Certificate",
+                    " EU Digital COVID Certificate",
+                    " NHS Covid Pass"
+                ],
+                "qualifiedVaccines": [
+                    "Pfizer - 7 days after second dose.",
+                    "AstraZeneca (Vaxzevria) - 7 days after second dose.",
+                    "AstraZeneca (India) - 7 days after second dose.",
+                    "Johnson & Johnson - 28 days after first dose.",
+                    "Moderna - 7 days after second dose.",
+                    "Immunity through previous infection - positive test older than 11 days, not older than 6 months."
+                ],
+                "policy": "Yes",
+                "exemptions": "Entry Ban, Testing, Quarantine, Domestic Restrictions"
+            }
+        },
+        "areaPolicy": {
+            "date": "2021-08-04",
+            "text": "<p>Under the fourth and final step of reopening, restrictions on large events were relaxed and local authorities were given power to decide COVID-19 measures on a wider range of issues.</p>",
+            "status": "Partial Measures",
+            "startDate": "2021-06-30",
+            "endDate": "indef",
+            "referenceLink": "https://www.gouvernement.fr/en/coronavirus-covid-19"
+        },
+        "relatedArea": [
+            {
+                "methods": [
+                    "GET"
+                ],
+                "rel": "Parent"
+            }
+        ],
+        "areaVaccinated": [
+            {
+                "date": "2021-07-25",
+                "vaccinationDoseStatus": "oneDose",
+                "percentage": 58.169
+            },
+            {
+                "date": "2021-08-01",
+                "vaccinationDoseStatus": "fully",
+                "percentage": 47.96
+            }
+        ],
+        "type": "covid19-area-report"
+    }
+}

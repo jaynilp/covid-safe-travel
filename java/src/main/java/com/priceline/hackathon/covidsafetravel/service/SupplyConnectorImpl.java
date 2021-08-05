@@ -53,10 +53,10 @@ public class SupplyConnectorImpl implements SupplyConnector{
     return null;
   }
 
-  public Mono<TravelRestrictionsResponseContainer> getTravelRestrictions(){
+  public Mono<TravelRestrictionsResponseContainer> getTravelRestrictions(String county,String city){
     AuthResponseContainer authResponse = auth().block();
     String path = supplyConfig.getTravelRestrictions();
-    String queryParameters = "?countryCode=US";
+    String queryParameters = city==null? "?countryCode="+county:"?countryCode="+county+"&cityCode="+city;
 
     return webClientWrapper
         .getClient(WEB)

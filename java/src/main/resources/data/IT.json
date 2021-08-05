@@ -1,0 +1,787 @@
+{
+    "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/diseases/covid19-area-report?countryCode=IT"
+        }
+    },
+    "data": {
+        "area": {
+            "name": "Italy",
+            "iataCode": "IT",
+            "areaType": "Country"
+        },
+        "summary": "<p>One of the first countries in Europe to be hit by the outbreak, Italy confirmed its first two COVID-19 cases on 30 January 2020 after two Chinese tourists on a cruise ship off Civitavecchia tested positive for the virus. In June 2021, all regions of the country were assessed to be low-risk (\"white\"), allowing most restrictions to be lifted. However, the reintroduction of health measures remains a possibility, due to concerns over the spread of the Delta virus variant. A state of emergency is in effect until 31 December.</p>",
+        "diseaseRiskLevel": "Medium",
+        "diseaseInfection": {
+            "date": "2021-07-25",
+            "level": "High",
+            "rate": 77.36,
+            "infectionMapLink": "https://www.nytimes.com/interactive/2020/world/europe/italy-coronavirus-cases.html"
+        },
+        "diseaseCases": {
+            "date": "2021-06-22",
+            "deaths": 127322,
+            "confirmed": 4254294
+        },
+        "dataSources": {
+            "covidDashboardLink": "http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html#/b0c68bce2cce478eaac82fe38d4138b1",
+            "healthDepartementSiteLink": "http://www.salute.gov.it/portale/nuovocoronavirus/homeNuovoCoronavirus.jsp?lingua=english",
+            "governmentSiteLink": "http://www.governo.it/it/coronavirus"
+        },
+        "areaRestrictions": [
+            {
+                "date": "2021-07-28",
+                "text": "<p>Nightlife establishments are closed. Attending public events requires a pass confirming a negative test, recovery or vaccination against COVID-19.</p> <p>Starting 6 August, a COVID-19 green pass - a digital or paper certificate indicating vaccination status or a recent negative COVID-19 test - will be required to visit indoor venues, including stadiums, restaurants, bars and cinemas. The pass will be available to those who have had at least one COVID-19 vaccine dose or present a negative COVID-19 test taken within 48 hours.</p>",
+                "restrictionType": "Others"
+            }
+        ],
+        "areaAccessRestriction": {
+            "transportation": {
+                "date": "2021-08-04",
+                "text": "<p>International flights are available, primarily to neighbouring countries and major hubs in Europe. Flights are also available on a limited number of long-distance routes, including Rome Fiumicino (FCO/LIRF)-John F. Kennedy (JFK/KJFK) and Milan Malpensa (MXP/LIMC)-John F. Kennedy (JFK/KJFK).</p>",
+                "isBanned": "No"
+            },
+            "declarationDocuments": {
+                "date": "2021-07-25",
+                "text": "<p>Arriving travellers must complete the EU Digital Passenger Locator Form (<a href=\"https://app.euplf.eu/#/\" target=\"_blank\" rel=\"noopener\">https://app.euplf.eu/#/</a>).</p> <p>Registration is also required for travel to Puglia (<a href=\"https://www.sanita.puglia.it/autosegnalazione-coronavirus\" target=\"_blank\" rel=\"noopener\">https://www.sanita.puglia.it/autosegnalazione-coronavirus</a>).</p>",
+                "documentRequired": "Yes",
+                "travelDocumentationLink": "https://app.euplf.eu/#/"
+            },
+            "entry": {
+                "date": "2021-07-29",
+                "text": "<p>Entry is permitted from \"Category C\" countries - EU and Schengen Area countries, Andorra, Monaco and Israel - provided that arrivals only transited or stayed in countries where entry is permitted in the last 14 days. There are no restrictions on entry from San Marino and Vatican City.</p> <p>Travellers from \"Category D\" countries - Albania, Armenia, Australia, Azerbaijan, Bosnia and Herzegovina, Brunei, Canada, Hong Kong, Japan, Jordan, Kosovo, Lebanon, Macau, Moldova, Montenegro, New Zealand, North Macedonia, Qatar, Saudi Arabia, Serbia, Singapore, South Korea, Taiwan, Ukraine, the United Arab Emirates, the United Kingdom and the United States (US) - are also permitted entry. \"Category D\" travellers - excluding arrivals from Canada, Japan and the United States - are generally subject to a five-day quarantine.</p> <p>Non-essential travel from other non-EU/Schengen countries is banned. EU nationals and long-term residents and those seeking to travel for work, absolute urgency, health, study or return home are exempt.</p> <p>Travellers who stayed or transited in Bangladesh, India or Sri Lanka in the last 14 days are banned from entering Italy. Those who had registered residence in Italy before 29 April or are registered in the Registry of Italians Residing Abroad (AIRE) are exempt. Those who seek to travel for an urgent humanitarian or health reason must obtain prior authorization from the Ministry of Health by completing an application and sending it by email to <a href=\"mailto:coordination.usmafsasn@sanita.it\" target=\"_blank\" rel=\"noopener\">coordination.usmafsasn@sanita.it</a> at least seven working days before the date of planned entry. The email must also contain the reason for requesting permission to enter and copy of a travel itinerary.</p> <p>Travellers who stayed or transited in Brazil in the last 14 days are banned from entering Italy. Only those who had registered residence in Italy before 13 February, those who are seeking to return home and those with prior authorisation to enter will be permitted entry. Those who seek authorisation to enter must complete an application and email the form to <a href=\"mailto:coordination.usmafsasn@sanita.it\" target=\"_blank\" rel=\"noopener\">coordination.usmafsasn@sanita.it</a> at least seven working days before the date of planned entry. The email must also contain the reason for requesting permission to enter and copy of a travel itinerary.</p>",
+                "ban": "Partial",
+                "throughDate": "2021-08-30",
+                "rules": "http://www.viaggiaresicuri.it/approfondimenti-insights/saluteinviaggio",
+                "exemptions": "http://www.salute.gov.it/imgs/C_17_pagineAree_5411_3_file.pdf",
+                "bannedArea": [
+                    {
+                        "iataCode": "AF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ER",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ET",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ID",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ML",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "OM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ST",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "YE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZW",
+                        "areaType": "country"
+                    }
+                ]
+            },
+            "diseaseTesting": {
+                "date": "2021-08-04",
+                "text": "<p>Travellers arriving from 'Category C' countries - the European Union (EU), the Schengen Area and Israel - must present the EU Digital COVID Certificate (EUDCC) or equivalent proof of a negative test, recovery or vaccination against COVID-19. The test must be a PCR or antigen test that was taken within 48 hours before entry.</p> <p>Travellers arriving from Canada, Japan and the United States (US) must also present proof of a negative test no older than 48 hours, recovery or vaccination against COVID-19 to be exempt from quarantine.</p> <p>Travellers arriving from the United Kingdom (UK) must present a negative test that was taken within 48 hours before entry, regardless of recovery or vaccination status. A second COVID-19 test must be taken at the end of the quarantine period.</p> <p>Other non-EU arrivals must present a negative test that was taken within 72 hours before entry and take a second COVID-19 test at the end of the quarantine period.</p> <p>Travellers from 'Category A' countries - San Marino and the Vatican - are exempt from testing. Transport workers, those who are travelling for proven work, health or urgent reasons and whose stay does not exceed 120 hours, those whose transit by private vehicle does not exceed 36 hours and cross-border workers are exempt from testing.</p>",
+                "isRequired": "Yes, conditional",
+                "when": "Before travel, After arrival",
+                "requirement": "Mandatory",
+                "rules": "http://www.viaggiaresicuri.it/approfondimenti-insights/saluteinviaggio",
+                "testType": "PCR, Antigen",
+                "minimumAge": 6,
+                "validityPeriod": {
+                    "delay": "P48H",
+                    "referenceDateType": "Arrival"
+                }
+            },
+            "tracingApplication": {
+                "date": "2021-07-25",
+                "text": "<p><span>\"Immuni\" (</span><span><a href=\"https://www.immuni.italia.it/\" target=\"_blank\" rel=\"noopener\">https://www.immuni.italia.it/</a></span><span>) is a voluntary mobile app for contact tracing available on Android and iOS devices.</span></p> <p><span></span></p>",
+                "isRequired": "Recommended",
+                "iosUrl": [
+                    "https://apps.apple.com/app/id1513940977"
+                ],
+                "androidUrl": [
+                    "https://play.google.com/store/apps/details?id=it.ministerodellasalute.immuni"
+                ]
+            },
+            "mask": {
+                "date": "2021-07-26",
+                "text": "<p>Face masks must be worn on public transport and in indoor spaces, as well as crowded outdoor areas.</p>",
+                "isRequired": "Yes"
+            },
+            "exit": {
+                "date": "2021-07-28",
+                "text": "<p>Leisure travel to countries in Category E - non-EU countries excluding Israel and countries listed in \"Category D\" - is not permitted. Travelling to Category E countries is only permitted for work, health, study, absolute urgency or return home.</p>",
+                "specialRequirements": "Yes, conditional",
+                "rulesLink": "http://www.viaggiaresicuri.it/",
+                "isBanned": "Partial"
+            },
+            "otherRestriction": {
+                "date": "2021-07-27"
+            },
+            "diseaseVaccination": {
+                "date": "2021-08-04",
+                "text": "<p>Arrivals from the European Union (EU), the Schengen Area, Canada, Israel, Japan and the United States (US) can present the EU Digital Covid Certificate or another proof of vaccination or recovery to be exempt from testing and quarantine. The vaccination certificate must show that at least 14 days have passed since the final dose.</p> <p>Residents can obtain the the EU Digital Covid Certificate (EUDCC) online (<a href=\"https://www.dgc.gov.it/web/\" target=\"_blank\" rel=\"noopener\">https://www.dgc.gov.it/web/</a>) as proof of vaccination, recovery or a negative test for COVID-19. The test cannot be older than 48 hours. The certificate can be used to attend large public events and accepted in both paper and electronic format. COVID-19 certificates issued in Canada, Israel, Japan, UK and US will be considered equivalent to the EUDCC.</p>",
+                "isRequired": "No",
+                "referenceLink": "https://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=italiano&id=264",
+                "acceptedCertificates": [
+                    "Paper Certificate",
+                    " EU Digital COVID Certificate",
+                    " NHS Covid Pass"
+                ],
+                "qualifiedVaccines": [
+                    "Pfizer - 14 days after second dose.",
+                    "AstraZeneca (Vaxzevria) - 14 days after second dose.",
+                    "Johnson & Johnson - 14 days after first dose.",
+                    "Moderna - 14 days after second dose.",
+                    "Immunity through previous infection - positive test older than 11 days, not older than 6 months."
+                ],
+                "policy": "Yes",
+                "exemptions": "Domestic Restrictions, Testing"
+            }
+        },
+        "areaPolicy": {
+            "date": "2021-07-28",
+            "text": "<p>Regions are assessed \"white\" (lowest risk), \"yellow\" (lower risk), \"orange\" (medium risk) or \"red\" (high risk) depending on the severity of the epidemiological situation. All regions are \"white\", where minimal measures apply.</p>",
+            "status": "Partial Measures",
+            "startDate": "2021-06-28",
+            "endDate": "2021-12-31",
+            "referenceLink": "http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638"
+        },
+        "relatedArea": [
+            {
+                "methods": [
+                    "GET"
+                ],
+                "rel": "Parent"
+            }
+        ],
+        "areaVaccinated": [
+            {
+                "date": "2021-07-25",
+                "vaccinationDoseStatus": "oneDose",
+                "percentage": 61.252
+            },
+            {
+                "date": "2021-08-02",
+                "vaccinationDoseStatus": "fully",
+                "percentage": 52.76
+            }
+        ],
+        "type": "covid19-area-report"
+    }
+}

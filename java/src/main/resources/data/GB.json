@@ -1,0 +1,394 @@
+{
+    "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/diseases/covid19-area-report?countryCode=GB"
+        }
+    },
+    "data": {
+        "area": {
+            "name": "United Kingdom",
+            "iataCode": "GB",
+            "areaType": "Country"
+        },
+        "summary": "<p>Public health officials confirmed the first two COVID-19 cases in England on 31 January 2020. While a mass vaccination campaign has significantly reduced the number of deaths, the country has seen a sharp uptick in COVID-19 cases driven by the spread of virus variants. Despite high incidence rates, authorities in England lifted sanitary measures on 19 July.</p>",
+        "diseaseRiskLevel": "High",
+        "diseaseInfection": {
+            "date": "2021-07-25",
+            "level": "Extreme",
+            "rate": 847.29,
+            "infectionMapLink": "https://coronavirus.data.gov.uk/details/interactive-map"
+        },
+        "diseaseCases": {
+            "date": "2021-06-22",
+            "deaths": 128008,
+            "confirmed": 4651988
+        },
+        "hotspots": "<p>Bedford, Blackburn with Darwen, Bolton</p>",
+        "dataSources": {
+            "covidDashboardLink": "https://coronavirus.data.gov.uk/cases",
+            "governmentSiteLink": "https://www.gov.uk/coronavirus"
+        },
+        "areaRestrictions": [
+            {
+                "date": "2021-07-29",
+                "text": "<p>Covid domestic travel policies and advice for:</p> <ul> <li>  <a href=\"https://www.gov.uk/guidance/covid-19-coronavirus-restrictions-what-you-can-and-cannot-do#travelling-within-england\" target=\"_blank\" rel=\"noopener\">England</a> </li> <li>  <a href=\"https://www.gov.scot/publications/coronavirus-covid-19-guidance-on-travel-and-transport/\" target=\"_blank\" rel=\"noopener\">Scotland</a> </li> <li>  <a href=\"https://gov.wales/current-restrictions-frequently-asked-questions#section-67271\" target=\"_blank\" rel=\"noopener\">Wales</a> </li> <li>  <a href=\"https://www.nidirect.gov.uk/articles/coronavirus-covid-19-travelling-within-common-travel-area\" target=\"_blank\" rel=\"noopener\">Northern Ireland</a> </li> </ul>",
+                "restrictionType": "Domestic Travel"
+            },
+            {
+                "date": "2021-08-03",
+                "text": "<p><strong>England</strong></p> <p>Effective 19 July, measures limiting the size of gatherings were lifted. Social distancing and capacity limits were lifted for most establishments as well.</p> <p><strong>Scotland</strong></p> <p>As part of \"Level 0\" measures, up to ten adults from four households will be permitted to meet in indoor public places and up to eight people from four households can meet indoors in indoor private spaces. Up to 15 adults from 15 households can meet outdoors.</p> <p>On 9 August, \"Level 0\" measures will be lifted. Nightlife establishments will be allowed to reopen and social distancing requirements will be lifted for most venues. Large public events - events with more than 5,000 people outdoors and 2,000 people indoors - will require prior permission.</p> <p><strong>Wales</strong></p> <p>Up to six people are permitted to gather indoors at private households and holiday accommodations. Organised indoor events are permitted for up to 1,000 seated and 200 standing. Most other remaining measures are set to be lifted in a move to \"alert level zero\" on 7 August.</p> <p><strong>Northern Ireland</strong></p> <p>Up to 10 people from three households can meet inside a home. Up to 15 people from any number of households can meet in a private garden.</p>",
+                "restrictionType": "Others"
+            }
+        ],
+        "areaAccessRestriction": {
+            "transportation": {
+                "date": "2021-07-26",
+                "text": "<p>Most available long-haul flights are operating at London Heathrow Airport (LHR/EGLL). Multiple carriers including British Airways are gradually increasing their flight schedule.</p> <p>Flights from Ethiopia, Oman, Qatar or the United Arab Emirates (UAE) are permitted to land at dedicated terminals of London Heathrow Airport or Birmingham Airport (BHX/EGBB) only.</p>",
+                "isBanned": "No"
+            },
+            "declarationDocuments": {
+                "date": "2021-08-02",
+                "text": "<p>Arriving travellers must complete and submit a <a href=\"https://www.gov.uk/provide-journey-contact-details-before-travel-uk\" target=\"_blank\" rel=\"noopener\">passenger locator form</a> within 48 hours before arrival. Travellers who are arriving from Ireland, the Channel Islands or the Isle of Man and stayed there for at least 10 days are not required to complete the form.</p>",
+                "documentRequired": "Yes",
+                "travelDocumentationLink": "https://provide-journey-contact-details.homeoffice.gov.uk/passengerLocatorFormUserAccountHolderQuestion"
+            },
+            "entry": {
+                "date": "2021-07-28",
+                "text": "<p>Those who have travelled to or through Afghanistan, Angola, Argentina, Bahrain, Bangladesh, Bolivia, Botswana, Brazil, Burundi, Cape Verde, Chile, Colombia, Costa Rica, Cuba, Democratic Republic of the Congo (DRC), Dominican Republic, Ecuador, Egypt, Eritrea, Eswatini, Ethiopia, French Guiana, Guyana, Haiti, India, Kenya, Lesotho, Maldives, Malawi, Mongolia, Mozambique, Myanmar, Namibia, Nepal, Oman, Pakistan, Panama, Paraguay, Peru, Philippines, Qatar, Rwanda, Seychelles, Sierra Leone, Somalia, South Africa, Sri Lanka, Sudan, Suriname, Tanzania, Trinidad and Tobago, Tunisia, Turkey, Uganda, United Arab Emirates (UAE), Uruguay, Venezuela, Zambia or Zimbabwe in the last 10 days are not permitted to enter.</p> <p>Only nationals of the UK and Ireland, UK permanent residents and UK long-term visa holders will be permitted entry from these countries.</p>",
+                "ban": "Partial",
+                "throughDate": "indef",
+                "rules": "https://www.gov.uk/guidance/red-amber-and-green-list-rules-for-entering-england#red-list",
+                "bannedArea": [
+                    {
+                        "iataCode": "AE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ER",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ET",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ID",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "OM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "QA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZW",
+                        "areaType": "country"
+                    }
+                ]
+            },
+            "diseaseTesting": {
+                "date": "2021-07-28",
+                "text": "<p><strong>Before travel</strong></p> <p>Arriving travellers must present a negative COVID-19 test result not older than three days before the time of departure; arrivals from the Common Travel Area (Jersey, Guernsey, the Isle of Man and Ireland), children under the age of 11 and hauliers are exempt. Pre-departure testing is mandatory regardless of vaccination status or the country of departure. Consult the government website for a full list of testing exemptions (<a href=\"https://www.gov.uk/government/publications/coronavirus-covid-19-travellers-exempt-from-uk-border-rules/coronavirus-covid-19-travellers-exempt-from-uk-border-rules\" target=\"_blank\" rel=\"noopener\">https://www.gov.uk/government/publications/coronavirus-covid-19-travellers-exempt-from-uk-border-rules/coronavirus-covid-19-travellers-exempt-from-uk-border-rules</a>).</p> <p><strong>After arrival</strong></p> <p>Travellers returning from \"green list\" countries must take an additional PCR test on or before day 2 after arrival. Vaccinated UK travellers returning from abroad and vaccinated travellers from the United States and the European Union must also take a Day 2 test. Travellers arriving from France must be tested on both days 2 and 8, regardless of vaccination status.</p> <p>Other travellers arriving from an \"amber list\" country and all travellers returning from a \"red list\" country must take PCR tests on days 2 and 8 during quarantine. Travellers must book a COVID-19 testing package on the website <a href=\"https://quarantinehotelbookings.ctmportal.co.uk/\" target=\"_blank\" rel=\"noopener\">https://quarantinehotelbookings.ctmportal.co.uk/</a> at their own expense.</p> <p>In England, a COVID-19 test can be taken five days after entry to shorten the self-quarantine period. Travellers wishing to be tested must do so at their own expense. Travellers must take COVID-19 tests on day 2 and 8 of their stay, regardless of the test result taken as part of the 'test to release' scheme. Travellers subject to hotel quarantine are excluded from the scheme.</p>",
+                "isRequired": "Yes",
+                "when": "Before travel, After arrival",
+                "requirement": "Mandatory",
+                "rules": "https://www.gov.uk/guidance/travel-advice-novel-coronavirus",
+                "testType": "PCR, Antigen",
+                "minimumAge": 11,
+                "validityPeriod": {
+                    "delay": "P72H",
+                    "referenceDateType": "Departure"
+                }
+            },
+            "tracingApplication": {
+                "date": "2021-08-02",
+                "text": "<p>Optional contact tracing app \"NHS COVID-19\" is available for use in England and Wales, \"StopCOVID NI\" in Northern Ireland and \"Protect Scotland\" in Scotland.</p>",
+                "isRequired": "Recommended",
+                "iosUrl": [
+                    "https://apps.apple.com/us/app/id1520427663",
+                    "https://apps.apple.com/gb/app/stopcovidni/id1519404160",
+                    "https://apps.apple.com/gb/app/id1526637715"
+                ],
+                "androidUrl": [
+                    "https://play.google.com/store/apps/details?id=uk.nhs.covid19.production",
+                    "https://play.google.com/store/apps/details?id=net.hscni.covidtracker",
+                    "https://play.google.com/store/apps/details?id=gov.scot.covidtracker"
+                ]
+            },
+            "mask": {
+                "date": "2021-07-29",
+                "text": "<p>Wearing a face mask is mandatory in public transport and other enclosed public spaces in Northern Ireland, Scotland and Wales.</p> <p>In England, the use of face masks is recommended in crowded areas. Businesses and travel operators can set their own mask requirements. The use of face masks remains mandatory on public transport operated by Transport for London (TfL).</p> <p>British Airways passengers are asked to wear a mask from the moment they arrive at the airport until they leave the plane at their destination.</p>",
+                "isRequired": "Yes"
+            },
+            "exit": {
+                "date": "2021-07-28",
+                "text": "<p>Travel to \"red list\" countries is discouraged.</p>",
+                "specialRequirements": "No",
+                "rulesLink": "https://www.gov.uk/government/news/tougher-border-controls-to-protect-public-health",
+                "isBanned": "Recommended"
+            },
+            "otherRestriction": {},
+            "diseaseVaccination": {
+                "date": "2021-08-02",
+                "text": "<p>Fully vaccinated travellers returning from \"amber list\" countries - excluding those who have visited or transited through France within the past 10 days - will be exempt from quarantine. The vaccine must have been administered by the country's National Health Service (NHS). At least 14 days have passed since the final dose. </p> <p>Starting 04:00 local time on 2 August, fully vaccinated travellers from the United States (US) and the European Union (EU) will be also exempt from quarantine upon arrival from an \"amber\" country, provided that their COVID-19 vaccine is recognised by the US Food and Drug Administration (FDA) or the European Medicines Agency (EMA). </p> <p>Arrivals from France must continue to quarantine for 10 days. Fully vaccinated travellers arriving from all countries must continue to be tested before departure and on Day 2 after arrival.</p> <p>Those travelling abroad from Wales or England can present the NHS Covid Pass (<a href=\"https://www.nhs.uk/conditions/coronavirus-covid-19/covid-pass/get-your-covid-pass-letter/\" target=\"_blank\" rel=\"noopener\">https://www.nhs.uk/conditions/coronavirus-covid-19/covid-pass/get-your-covid-pass-letter/</a>) as a digital app or in a letter form as proof of full vaccination from COVID-19. Those travelling from Northern Ireland (<a href=\"https://www.nidirect.gov.uk/services/coronavirus-covid-19-interim-proof-vaccination-document\" target=\"_blank\" rel=\"noopener\">https://www.nidirect.gov.uk/services/coronavirus-covid-19-interim-proof-vaccination-document</a>) or Scotland (<a href=\"https://www.nhsinform.scot/covid19status\" target=\"_blank\" rel=\"noopener\">https://www.nhsinform.scot/covid19status</a>) can obtain the certificate in written form.</p>",
+                "isRequired": "No",
+                "referenceLink": "https://www.gov.uk/guidance/coronavirus-covid-19-testing-for-people-travelling-to-england",
+                "acceptedCertificates": [
+                    "NHS Covid Pass"
+                ],
+                "qualifiedVaccines": [
+                    "Pfizer - 14 days after second dose.",
+                    "AstraZeneca (Vaxzevria) - 14 days after second dose.",
+                    "Johnson & Johnson - 14 days after first dose.",
+                    "Moderna - 14 days after second dose."
+                ],
+                "policy": "Yes",
+                "exemptions": "Quarantine"
+            }
+        },
+        "areaPolicy": {
+            "date": "2021-08-03",
+            "text": "<p>Mandatory use of face masks, social distancing and limits on the size of gatherings were lifted in England on 19 July. Wales is also expected to ease sanitary measures on 7 August, followed by Scotland on 9 August.</p>",
+            "status": "Partial Measures",
+            "startDate": "2021-07-19",
+            "endDate": "indef",
+            "referenceLink": "https://www.gov.uk/coronavirus"
+        },
+        "relatedArea": [
+            {
+                "methods": [
+                    "GET"
+                ],
+                "rel": "Parent"
+            }
+        ],
+        "areaVaccinated": [
+            {
+                "date": "2021-07-26",
+                "vaccinationDoseStatus": "oneDose",
+                "percentage": 68.629
+            },
+            {
+                "date": "2021-08-01",
+                "vaccinationDoseStatus": "fully",
+                "percentage": 56.66
+            }
+        ],
+        "type": "covid19-area-report"
+    }
+}
