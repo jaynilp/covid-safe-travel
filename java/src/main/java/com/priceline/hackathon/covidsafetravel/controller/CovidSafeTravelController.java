@@ -31,8 +31,7 @@ public class CovidSafeTravelController {
 
     String key = city==null?country:country+"-"+city;
 
-    TravelRestrictionsResponseContainer travelRestriction
-    sResponseContainer = cacheConnector.get(key);
+    TravelRestrictionsResponseContainer travelRestrictionsResponseContainer = cacheConnector.get(key);
 
       return travelRestrictionsResponseContainer==null?getTravelRestrictions(country, city)
           .map(
