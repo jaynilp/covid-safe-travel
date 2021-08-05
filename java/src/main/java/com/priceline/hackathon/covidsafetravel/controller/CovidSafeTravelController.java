@@ -27,11 +27,17 @@ public class CovidSafeTravelController {
 
   @GetMapping(value = "/covidDetails", produces = "application/json")
   @ResponseBody
-  public CovidDataResponse getCovidData(@RequestParam String country, @RequestParam String city) {
+  public Mono<TravelRestrictionsResponseContainer> getCovidData(@RequestParam String country, @RequestParam(required = false)String city) {
 
-    cacheConnector.get(country);
-    System.out.println(cacheConnector.get(country));
-    return null;
+    String key = city==null?country:country+"-"+city;
+
+    TravelRestrictionsResponseContainer travelRestrictionsResponseContainer = cacheConnector.get(key);
+
+      return travelRestrictionsResponseContainer==null?ping(country, city)
+          .map(
+              (travelRestrictionsResponseContainer1 ->
+                  cacheConnector.put(key, travelRestrictionsResponseContainer1))):Mono.just(travelRestrictionsResponseContainer);
+
   }
 
   /*Using This Endpoint we can set Jsons in Redis Cache*/
@@ -46,11 +52,11 @@ public class CovidSafeTravelController {
 
   @GetMapping(value = "/ping")
   @ResponseBody
-  public String ping() {
+  public Mono<TravelRestrictionsResponseContainer> ping(@RequestParam String country , @RequestParam String city) {
 
     System.out.println("Testing application");
     Mono<TravelRestrictionsResponseContainer> travelRestrictions = supplyConnector
-        .getTravelRestrictions();
+        .getTravelRestrictions(country,city);
     ObjectMapper mapper = new ObjectMapper();
     try {
       System.out.println(
@@ -58,7 +64,7 @@ public class CovidSafeTravelController {
     } catch (JsonProcessingException e) {
       e.printStackTrace();
     }
-    return "Service is working";
+    return travelRestrictions;
 
   }
   

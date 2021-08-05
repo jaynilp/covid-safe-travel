@@ -7,5 +7,5 @@ public interface SupplyConnector {
 
   String getAccessToken();
 
-  Mono<TravelRestrictionsResponseContainer> getTravelRestrictions();
+  Mono<TravelRestrictionsResponseContainer> getTravelRestrictions(String country, String city);
 }

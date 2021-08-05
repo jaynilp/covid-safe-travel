@@ -1,0 +1,948 @@
+{
+    "meta": {
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/diseases/covid19-area-report?countryCode=IN"
+        }
+    },
+    "data": {
+        "area": {
+            "name": "India",
+            "iataCode": "IN",
+            "areaType": "Country"
+        },
+        "summary": "<p>Authorities have relied on lockdowns and localised restrictions to tackle the COVID-19 outbreak; they do not have a control over the spread of infections owing to India's large population. Partial lockdown measures remain ongoing in the majority of the states since early April due to a severe new outbreak, amplified by a dearth of resources such as hospital beds and oxygen cylinders. There is also a lack of reliable information on the number of cases and fatalities.</p>",
+        "diseaseRiskLevel": "Extreme",
+        "diseaseInfection": {
+            "date": "2021-07-25",
+            "level": "Medium",
+            "rate": 38.9,
+            "infectionMapLink": "https://www.nytimes.com/interactive/2020/world/asia/india-coronavirus-cases.html"
+        },
+        "diseaseCases": {
+            "date": "2021-06-22",
+            "deaths": 390660,
+            "confirmed": 30028709
+        },
+        "hotspots": "<p>Ahmedabad, Bangalore, Delhi, Haridwar, Mumbai.</p>",
+        "dataSources": {},
+        "areaRestrictions": [
+            {
+                "date": "2021-08-04",
+                "text": "<p><strong>Arunachal Pradesh</strong> 15:00-05:00 in Itanagar, Naharlagun, Banderdewa until further notice</p> <p><strong>Andhra Pradesh</strong>: 22:00-06:00 statewide through 14 august</p> <p><strong>Assam</strong>: 14:00-05:00 in Goalpara, Morigaon, Jorhat, Sonitpur and Biswanath until further notice. 17:00-05:00 in Kamrup Metropolitan, Dhubri, South Salmara, Majuli, Bongaigaon, Chirang, Udalguri, West KArbi Anglong, Dima Hasao, Charaideo, Hailakandi, Dibrugarh, Sivasagar, Kokrajhar, Barpeta, Nalbari, Baksa, Bajali, Kamrup, Darang, Nagaon, Hojai, Tinsukia, Dhemaji, Cachar, Karimganj and Karbi Anglong</p> <p><strong>Bihar</strong>: 21:00-05:00 statewide through 7 August</p> <p><strong>Chandigarh</strong>: 23:00-05:00 territory-wide until further notice</p> <p><strong>Delhi</strong>: 22:00-05:00 territory-wide until further notice</p> <p><strong>Gujarat</strong>: 23:00-06:00 in Ahmedabad, Surat, Rajkot, Vadodara, Bhavnagar, Jamnagar, Junagadh and Gandhinagar</p> <p><strong>Haryana</strong>: 23:00-05:00 statewide until 9 August</p> <p><strong>Himachal Pradesh</strong>: 17:00-05:00 statewide until further notice</p> <p><strong>Jammu and Kashmir</strong>: 20:00-07:00 territory-wide until further notice</p> <p><strong>Karnataka</strong>: 22:00-05:00 statewide until further notice; 22:00-06:00 in Bengaluru until 16 August.</p> <p><strong>Madhya Pradesh</strong>: 23:00-06:00 until further notice</p> <p><strong>Manipur</strong>: 18:00-05:00 in Jiribam, Kamjong, Kangpokpi, Noney, Pherzawl, Senapati, Tengnoupal, Tamenglong and Ukhrul districts until 7 August</p> <p><strong>Meghalaya</strong>: 19:00-05:00 in East Khasi Hills district until further notice and 17:00-05:00 in West Garo Hills district until 9 August (14:00 in Tura)</p> <p><strong>Mizoram</strong>: 19:00-04:00 statewide until 7 August</p> <p><strong>Nagaland</strong>: 20:00-04:00 statewide until 18 August</p> <p><strong>Odisha</strong>: 20:00-06:00 local time daily in Category A districts; 24 hours on weekends in Category B districts</p> <p><strong>Puducherry</strong>: 22:00-05:00 territory-wide through 15 August</p> <p><strong>Rajasthan</strong>: 23:00-05:00 statewide until further notice</p> <p><strong>Tripura</strong>: 19:00-05:00 statewide until 31 August</p> <p><strong>Uttarakhand</strong>: 19:00-06:00 statewide through 10 August</p> <p><strong>Uttar Pradesh</strong>: 22:00-06:00 statewide until further notice</p> <p><strong>West Bengal</strong>: 21:00-05:00 statewide through 15 August</p>",
+                "restrictionType": "Curfew"
+            },
+            {
+                "date": "2021-08-04",
+                "text": "<p>Full lockdown: Non-essential movement of people and vehicles is banned. Non-essential businesses are closed, restaurants are mostly limited to takeaway and delivery services, and public transport is either suspended or operating at reduced capacity. Affected areas include the following:</p> <p><strong>Chhattisgarh</strong>: Taigarh, Janjgir and Surajpur districts until further notice</p> <p><strong>Manipur</strong>: Imphal West, Imphal East, Bishnupur, Thoubal, Kakching, Chandel and Churachandpur districts until 7 August</p> <p><strong>Mizoram</strong>: Aizwal district until 7 August</p> <p><strong>Puducherry</strong>: Territroy-wide through 15 August</p> <p><strong>Sikkim</strong>: Areas where postive cases are discovered at the discretion of local officials until further notice</p> <p><strong>Tamil Nadu</strong>: Statewide through 9 August</p> <p>Partial lockdown: Partial lockdown measures may include weekend lockdowns, limited capacities onboard public transportation and at venues, and opening of markets and shops during fixed hours. Affected areas include:</p> <p><strong>Goa</strong>: Statewide until 9 August</p> <p><strong>Haryana</strong>: Statewide until 9 August</p> <p><strong>Jharkhand</strong>: Statewide until further notice</p> <p><strong>Kerala</strong>: Statewide on Sundays until further notice. Lockdowns continue in containment zones which include several streets in suburban areas.</p> <p><strong>Meghalaya</strong>: Effective on weekends in West Garo Hills district until 9 August and on Sundays in East Khasi Hills until further notice</p> <p><strong>Nagaland</strong>: Statewide until 18 August</p> <p><strong>Odisha</strong>: On weekends in high-risk Category B districts (Cuttack, Puri and Bhubaneswar) until 1 September</p> <p><strong>Uttar Pradesh</strong>: In Noida until 30 August</p> <p><strong>West Bengal</strong>: Statewide through 15 August</p>",
+                "restrictionType": "Lockdown"
+            },
+            {
+                "date": "2021-08-04",
+                "text": "<p>Many long-distance railway services operated by Indian Railways, including mail/express, passenger and suburban trains, are suspended nationwide. Quarantine requirements for domestic travellers differ from state to state and domestic travellers must procure an e-pass to enter that respective state. Effective 1 June, all domestic flights may only operate under 50% of their normal seating capacity.</p> <p><strong>Andaman and Nicobar Islands</strong></p> <p>-Home quarantine for seven days upon entering the state</p> <p>-Rapid Antigen test conducted on arrival, those tested positive will be subject to institutional quarantine</p> <p>-Negative PCR test no older than 48 hours to be presented prior to entry</p> <p>-Passengers must download the Arogya Setu application to mark their status (<a href=\"https://www.mygov.in/aarogya-setu-app/\" target=\"_blank\" rel=\"noopener\">https://www.mygov.in/aarogya-setu-app/</a>)</p> <p><strong>Andhra Pradesh</strong></p> <p>-Home quarantine for 14 days upon entering the state</p> <p>-Travellers must register themselves on the Spandana website (<a href=\"https://www.spandana.ap.gov.in/\" target=\"_blank\" rel=\"noopener\">https://www.spandana.ap.gov.in/</a>)</p> <p>-Itanagar, Naharlagun and Banderdewa are under a nighttime movement ban as of 25 July; e-passes must be obtained at <a href=\"https://eService.arunachatoovin/\" target=\"_blank\" rel=\"noopener\">https://eService.arunachatoovin/</a> or <a href=\"https://itanaoarmicin\" target=\"_blank\" rel=\"noopener\">https://itanaoarmicin</a></p> <p><strong>Assam</strong></p> <p>-PCR test required 72 hours before entering the state (only for travellers from Mumbai and Bengaluru)</p> <p>-Home quarantine for seven days</p> <p>-Travellers subject to mandatory Antigen testing on arrival; those with a positive result need to isolate while those with a negative result must take an RT-PCR test at the airport</p> <p>-Public transport is operating at 50% capacity</p> <p><strong>Bihar</strong></p> <p>-All passengers will be tested upon arrival</p> <p>-Home quarantine for 10 days</p> <p>-Travellers from Delhi, Gujarat, and Madhya Pradesh are subject to testing on arrival (those with a negative result or vaccine certificate are exempted)</p> <p><strong>Chandigarh</strong></p> <p>-PCR test required 72 hours before or a vaccine certificate of at least one dose, over two weeks old</p> <p><strong>Chhattisgarh</strong></p> <p>-PCR test is required 96 hours before or a certificate proving vaccine completion</p> <p>-Those without either will be tested on arrival</p> <p><strong>Delhi</strong></p> <p>-Home quarantine for 14 days</p> <p><strong>Gujarat</strong></p> <p>-Travellers must fill out a self-reporting form (<a href=\"https://www.suratmunicipal.gov.in/EServices/Covid19SelfReporting\" target=\"_blank\" rel=\"noopener\">https://www.suratmunicipal.gov.in/EServices/Covid19SelfReporting</a>)</p> <p>-Travellers must install the SMC COVID-19 tracker app (iOS: <a href=\"https://apps.apple.com/in/app/smc-covid19-tracker/id1506137458\" target=\"_blank\" rel=\"noopener\">https://apps.apple.com/in/app/smc-covid19-tracker/id1506137458</a>, Android: <a href=\"https://play.google.com/store/apps/details?id=in.smc.covidout\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=in.smc.covidout</a>)</p> <p><strong>Haryana</strong></p> <p>-Home quarantine for 14 days</p> <p><strong>Himachal Pradesh</strong></p> <p>-Travellers with a PCR test taken 96 hours before arrival are granted exemption from quarantine</p> <p>-Travellers from cities with high infection rates are subject to seven days of institutional quarantine, followed by seven days home quarantine</p> <p>-Other travellers are subject to home quarantine for 14 days</p> <p>-Short term visits within a 48-hour period for business purposes may be exempted from quarantine</p> <p>-Mandatory to install the Aarogya Setu app, and to register for E-pass 48 hours prior to arrival (<a href=\"http://covid19epass.hp.gov.in\" target=\"_blank\" rel=\"noopener\">http://covid19epass.hp.gov.in</a>)</p> <p><strong>Jammu and Kashmir</strong></p> <p>-Arriving travellers must undergo PCR/Antigen test</p> <p>-Travellers must install the Aarogya Setu app</p> <p>-Home quarantine for 14 days, those without the app are subject to institutional quarantine</p> <p>-Asymptomatic business travellers may be exempted from quarantine</p> <p>-Only Budgam-Banihal rail service is operating</p> <p><strong>Jharkhand</strong></p> <p>-PCR test is required 72 hours before (only for travellers from high-risk states)</p> <p>-Home quarantine for seven days</p> <p><strong>Karnataka</strong></p> <p>-PCR test not mandatory</p> <p>-Bengaluru Metro operating at 50% capacity on weekdays, closed on weekends</p> <p>-Travellers to and from Maharashtra and Kerala must present a negative test certificate issued 72 hours before departure or a certificate indicating at least one dose of the vaccine; travellers to Bengaluru must present a negative RT-PCR test result no older than 72 hours prior to arrival or undergo a test and an institutional quarantine pending the result of upon arrival test.</p> <p><strong>Kerala</strong></p> <p>-PCR test is required 72 hours before</p> <p>-Travellers must register in the Jagratha portal (<a href=\"https://covid19jagratha.kerala.nic.in/home/\" target=\"_blank\" rel=\"noopener\">https://covid19jagratha.kerala.nic.in/home/</a>)</p> <p>-Home quarantine for 14 days Short term visits (less than seven days) may be exempted from quarantine</p> <p>-Kochi metro service is operating from 08:00-20:00 daily.</p> <p><strong>Madhya Pradesh</strong></p> <p>-PCR test required 48 hours before (flights arriving in Indore from Maharashtra) PCR test required 72 hours before entering Bhopal (travellers form Maharashtra)</p> <p>-Home quarantine for 14 days</p> <p>-Mandatory to fill out the self-declaration form (<a href=\"https://indore.acceldash.com/self-declaration-form\" target=\"_blank\" rel=\"noopener\">https://indore.acceldash.com/self-declaration-form</a>)</p> <p><strong>Maharashtra</strong></p> <p>-PCR test required 48 hours before, 72 hours for Nagpur city</p> <p>-Home quarantine for 14 days</p> <p>-Short-term travellers (less than seven days) exempted from quarantine</p> <p>-Inter-state travel by road is restricted</p> <p><strong>Manipur</strong></p> <p>-PCR test required 72 hours before, fully vaccinated travellers are exempt</p> <p>-Inter-district movement restriction in place</p> <p><strong>Meghalaya</strong></p> <p>-PCR test required 72 hours before</p> <p>-Inter-district movement restrictions are in place</p> <p>-passengers must register to the state portal (<a href=\"http://meghalayaonline.gov.in/covid/testing.htm\" target=\"_blank\" rel=\"noopener\">http://meghalayaonline.gov.in/covid/testing.htm</a>)</p> <p><strong>Mizoram</strong></p> <p>-Covid test required 96 hours before, Antigen test on arrival, and PCR test on the tenth day of home quarantine</p> <p>-10 days home quarantine</p> <p>-Public transport may operate at one-third capacity in Aizawl district; service is suspended on Sundays</p> <p>-Mandatory to apply for mPASS at the mCOVID-19 app (<a href=\"https://play.google.com/store/apps/details?id=gov.mizoram.mcovid19&amp;hl=en&amp;gl=US\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=gov.mizoram.mcovid19&amp;hl=en&amp;gl=US</a>)</p> <p>-Mandatory to arrange your home/hotel quarantine (<a href=\"https://mcovid19.mizoram.gov.in/\" target=\"_blank\" rel=\"noopener\">https://mcovid19.mizoram.gov.in/</a>)</p> <p><strong>Nagaland</strong></p> <p>-PCR test 72 hours before</p> <p>-Institutional quarantine for seven days then followed by 14 days home quarantine</p> <p>-Mandatory to install the Covid Nagaland visitor’s app and to fill out the Self Declaration form</p> <p><strong>Odisha</strong></p> <p>-PCR test required 48 hours before or a certificate proving vaccine completion</p> <p>-Those without document will be subject to seven days of institutional or home quarantine</p> <p>-Public transport restricted to essential travel only</p> <p><strong>Punjab</strong></p> <p>-Home quarantine for 14 days</p> <p>-Travellers must install the Cova app (iOS: <a href=\"https://apps.apple.com/in/app/cova-punjab/id1501977319\" target=\"_blank\" rel=\"noopener\">https://apps.apple.com/in/app/cova-punjab/id1501977319</a>, Android: <a href=\"https://play.google.com/store/apps/details?id=in.gov.punjab.cova&amp;hl=en_IN\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=in.gov.punjab.cova&amp;hl=en_IN</a>)</p> <p><strong>Rajasthan</strong></p> <p>-PCR test is required 72 hours before or a certificate proving uptake of at least one dose of vaccination taken at least 28 days before</p> <p>-Those without either document are subject to home quarantine for 15 days</p> <p><strong>Tamil Nadu</strong></p> <p>-PCR test required 72 hours before</p> <p>-Home quarantine for 14 days</p> <p>-Travellers from Maharashtra and Kerala are only subject to seven days of home quarantine, and a further seven days of self-monitoring</p> <p>-Mandatory to register for an e-pass on (<a href=\"https://tnepass.tnega.org/\" target=\"_blank\" rel=\"noopener\">https://tnepass.tnega.org/</a>)</p> <p>-Public transport operating at 50% capacity</p> <p><strong>Telangana</strong></p> <p>-Asymptomatic travellers exempted from quarantine. Self-monitor for at least 14 days</p> <p>-Travellers must install the Arogya Setu app</p> <p>-Public transport is operating at 50% capacity</p> <p><strong>Uttarakhand</strong></p> <p>-PCR test taken 96 hours before or certificate proving vaccine completion may exempt travellers from quarantine</p> <p>-Home quarantine for seven days</p> <p>-Travellers must register on the state website (<a href=\"http://smartcitydehradun.uk.gov.in/\" target=\"_blank\" rel=\"noopener\">http://smartcitydehradun.uk.gov.in/</a>.)</p> <p>-Public transport operating at 50% capacity</p> <p><strong>Uttar Pradesh</strong></p> <p>-PCR test is required 72 hours before (only for travellers from Kerala and Maharashtra)</p> <p>-Travellers must install the Aarogya Setu app and register themselves on <a href=\"https://reg.upcovid.in\" target=\"_blank\" rel=\"noopener\">https://reg.upcovid.in</a></p> <p>-Home quarantine for 14 days</p> <p>-Short term visit (less than seven days) may be exempted from quarantine</p> <p><strong>West Bengal</strong></p> <p>-PCR test required 72 hours before</p> <p>-Those without a negative result must undergo 14 days quarantine</p> <p>-Travellers must install Sandhane app (currently available only for Android: <a href=\"https://play.google.com/store/apps/details?id=com.wbhealth.general.data.ui&amp;hl=en_IN&amp;gl=US\" target=\"_blank\" rel=\"noopener\">https://play.google.com/store/apps/details?id=com.wbhealth.general.data.ui&amp;hl=en_IN&amp;gl=US</a>)</p> <p>-Public transport operating at 50% capacity; rail service suspended; metro service operating at 50% on weekdays only</p>",
+                "restrictionType": "Domestic Travel"
+            },
+            {
+                "date": "2021-07-31",
+                "text": "<p>Non-essential businesses remain closed or are operating for limited hours in most areas nationwide. Essential businesses may also operate for a limited duration in some areas. Some examples include:</p> <p><strong>Arunachal Pradesh</strong></p> <p>-Essential business may open from 06:00-14:00 local time</p> <p><strong>Assam</strong></p> <p>-Shops must close one hour before the start of curfew in respective districts; public eid gatherings are banned until 21 July</p> <p><strong>Delhi</strong></p> <p>-Shops and markets may open from 10:00-20:00 local time</p> <p>-Restaurants may open from 08:00-22:00 local time</p> <p><strong>Gujarat</strong></p> <p>-Shops may open from 09:00-19:00 until 30 July, then until 22:00 afterwards</p> <p>-All establiments are permitted to function at 50% capacity</p> <p><strong>Jammu and Kashmir</strong></p> <p>-Shops permitted to open four days a week, from Mondays to Thursdays</p> <p>-Businesses to remain closed over the weekends</p> <p>-Indoor and outdoor gatherings are limited to up to 25 people</p> <p><strong>Karnataka</strong></p> <p>-All businesses may operate until 17:00 local time at 50% capacity</p> <p>-Gatherings of over four people were banned in Bengaluru until at least 16 August</p> <p><strong>Maharashtra</strong></p> <p>-Hospitality establishments may open until 16:00 local time at 50% capacity</p> <p>-Authorities implemented a five-level containment measure, with districts listed under category 5 having the strictest regulations on all kinds of businesses and eid public gatherings are banned</p> <p>-Random Antigen tests are conducted in crowded areas in Mumbai</p> <p><strong>Nagaland</strong></p> <p>-Shops can open from 06:00-18:00 local time daily</p> <p><strong>Puducherry</strong></p> <p>-Businesses can open from 05:00-21:00 local time daily</p> <p><strong>Rajasthan</strong></p> <p>-Markets are open from 05:00-20:00 local time daily</p> <p>-Businesses with at least 60 percent of their staff vaccinated may operate until 20:00; hotels and restaurants until 22:00</p> <p><strong>Tamil Nadu</strong></p> <p>-Shops and commercial establishments may open from 06:00-17:00 local time</p> <p>-Gatherings are banned</p> <p>-E-pass mandatory for travel to and from Category I districts but not required for categories II and III</p> <p><strong>West Bengal</strong></p> <p>-Markets may open from 06:00-21:00 local time daily</p> <p>-Hospitality establishments may operate until 20:00 at 50% capacity, all workers must be fully vaccinated</p>",
+                "restrictionType": "Others"
+            }
+        ],
+        "areaAccessRestriction": {
+            "transportation": {
+                "date": "2021-07-30",
+                "text": "<p>Most commercial international flights are suspended until at least 31 August. Emergency, humanitarian, repatriation, diplomatic and cargo flights are exempt. Flights to and from select countries were allowed to resume from mid-2020, mostly to repatriate stranded travellers and for essential workers, after authorities made bilateral agreements with these countries; these include Afghanistan, Bahrain, Bangladesh, Bhutan, Canada, Ethiopia, France, Germany, Iraq, Japan, Kenya, Kuwait, Maldives, Nepal, Netherlands, Nigeria, Oman, Qatar, Russia, Rwanda, Seychelles, Tanzania, Ukraine, United Arab Emirates, United Kingdom, United States and Uzbekistan.</p>",
+                "isBanned": "Partial",
+                "throughDate": "2021-08-31"
+            },
+            "declarationDocuments": {
+                "date": "2021-07-23",
+                "text": "<p>Incoming travellers must fill out a self-declaration form found at New Delhi Airport Portal at least 72 hours prior to departure; quarantine exemption forms can also be found on the same website.</p>",
+                "documentRequired": "Yes",
+                "travelDocumentationLink": "https://www.newdelhiairport.in/airsuvidha/apho-registration"
+            },
+            "entry": {
+                "date": "2021-07-23",
+                "text": "<p>All land borders are closed. Permitted travellers, mostly including Indian nationals, Overseas Citizens of India (OCIs) and foreigners with valid visas, from countries with which India has unilateral or bilateral quarantine-free agreements, are allowed entry with prior government approval. The countries currently included under India's air travel bubble are Afghanistan, Bahrain, Bangladesh, Bhutan, Canada, Ethiopia, France, Germany, Iraq, Japan, Kenya, Kuwait, Maldives, Nepal, Netherlands, Nigeria, Oman, Qatar, Russia, Rwanda, Seychelles, Tanzania, Ukraine, United Arab Emirates, United Kingdom, United States and Uzbekistan. Since mid-October 2020, the issuance of work, student and medical visas has resumed.</p>",
+                "ban": "Partial",
+                "throughDate": "indef",
+                "rules": "https://www.civilaviation.gov.in/",
+                "bannedArea": [
+                    {
+                        "iataCode": "AD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "AZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "BZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "CZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "DZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "EG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ER",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ES",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "FO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "GY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "HU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ID",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "IT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "JO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KP",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "KZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "LY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ME",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ML",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MQ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "MZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "NZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "PY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "RS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SB",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SK",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ST",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SX",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "SZ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TD",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TH",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TJ",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TL",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TO",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TR",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TT",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TV",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "TW",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "UY",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VC",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VG",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VI",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VN",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "VU",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WF",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "WS",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "YE",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZA",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZM",
+                        "areaType": "country"
+                    },
+                    {
+                        "iataCode": "ZW",
+                        "areaType": "country"
+                    }
+                ]
+            },
+            "diseaseTesting": {
+                "date": "2021-07-23",
+                "text": "<p>Travellers looking to avoid institutional quarantine due to special conditions need to provide a negative COVID-19 test certificate taken 72 hours prior to departure.</p> <p>From 23 February, all travellers on flights originating from United Kingdom (UK), Europe or the Middle East, as well as travellers from the UK, South Africa and Brazil, must provide negative results of COVID-19 tests taken within 72 hours prior to departure and take self-paid molecular tests for COVID-19 on arrival.</p> <p>Air India Express officials announced that all international passengers to India must carry a negative RT-PCR test report with the test conducted within 72 hours prior to departure. They must also fill up a self-declaration form and upload the negative test result on the Air Suvidha portal.</p> <p>Travellers subject to institutional quarantine will also be asked to take a COVID-19 test on day 7 before being allowed to exit quarantine.</p>",
+                "isRequired": "Yes, conditional",
+                "when": "Before travel, After arrival",
+                "requirement": "Mandatory",
+                "rules": "https://www.newdelhiairport.in/airsuvidha/allairports",
+                "testType": "PCR",
+                "validityPeriod": {
+                    "delay": "P72H",
+                    "referenceDateType": "Departure"
+                }
+            },
+            "tracingApplication": {
+                "date": "2021-07-23",
+                "text": "<p><span>All incoming travellers have to download the Aarogya Setu contact tracing mobile app found here </span><span><a href=\"https://www.mygov.in/aarogya-setu-app/\" target=\"_blank\" rel=\"noopener\">https://www.mygov.in/aarogya-setu-app/</a></span><span>, upon arrival and register their details with respective state authorities. </span></p> <p><span></span></p>",
+                "isRequired": "Yes",
+                "iosUrl": [
+                    "https://apps.apple.com/in/app/aarogyasetu/id1505825357"
+                ],
+                "androidUrl": [
+                    "https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu"
+                ]
+            },
+            "mask": {
+                "date": "2021-07-23",
+                "text": "<p>The wearing of face masks in public, including onboard public transportation, is compulsory. Those who violate the mandatory facemask rule imposed for public areas, including in private vehicles, of Delhi will be fined at least INR 2,000. </p>",
+                "isRequired": "Yes"
+            },
+            "exit": {
+                "date": "2021-07-23",
+                "text": "<p>Outbound travel for non-essential travellers is banned. Essential workers and travellers with prior government approval and work permits will be allowed to exit the country.</p> <p>Permitted outbound travellers will be allowed to board flights if only they carry a negative RT-PCR test report as per the guidelines of the destination country. </p>",
+                "specialRequirements": "Yes, conditional",
+                "isBanned": "Yes"
+            },
+            "otherRestriction": {},
+            "diseaseVaccination": {
+                "date": "2021-07-23",
+                "isRequired": "No",
+                "policy": "No"
+            }
+        },
+        "areaPolicy": {
+            "date": "2021-07-29",
+            "text": "<p>Partial lockdown-type measures remain in place across several states due to a renewed and much more deadly outbreak in the country since early April.</p>",
+            "status": "Partial Measures",
+            "startDate": "2020-03-22",
+            "endDate": "indef",
+            "referenceLink": "https://www.mygov.in/covid-19/"
+        },
+        "relatedArea": [
+            {
+                "methods": [
+                    "GET"
+                ],
+                "rel": "Parent"
+            }
+        ],
+        "areaVaccinated": [
+            {
+                "date": "2021-07-27",
+                "vaccinationDoseStatus": "oneDose",
+                "percentage": 25.11
+            },
+            {
+                "date": "2021-08-01",
+                "vaccinationDoseStatus": "fully",
+                "percentage": 7.55
+            }
+        ],
+        "type": "covid19-area-report"
+    }
+}
