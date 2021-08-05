@@ -23,7 +23,7 @@ public class CacheInit implements ApplicationListener<ApplicationReadyEvent> {
   public void onApplicationEvent(ApplicationReadyEvent event) {
 
 
-          File file = new File("/Users/nesharma/workspace/covid-safe-travel/java/src/main/resources/data");
+          File file = new File(getClass().getClassLoader().getResource("data").getPath());
     if (file.listFiles() != null) {
       Arrays.stream(file.listFiles())
           .forEach(
@@ -34,9 +34,9 @@ public class CacheInit implements ApplicationListener<ApplicationReadyEvent> {
                   objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
                   TravelRestrictionsResponseContainer json = objectMapper.readValue(key, TravelRestrictionsResponseContainer.class);
+                  System.out.println("-------Insert Cache for Key"+key.getName()+"--------");
 
-
-                  cacheConnector.put(key.getName(), json);
+                  cacheConnector.put(key.getName().replace(".json",""), json);
                 } catch (FileNotFoundException e) {
                   e.printStackTrace();
                 } catch (IOException e) {
