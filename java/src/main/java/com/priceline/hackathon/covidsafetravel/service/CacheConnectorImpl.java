@@ -1,6 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.service;
 
 import com.priceline.hackathon.covidsafetravel.domain.CovidDataResponse;
+import com.priceline.hackathon.covidsafetravel.model.JsonRootBean;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,18 +12,20 @@ import org.springframework.stereotype.Service;
 @Service
 public class CacheConnectorImpl implements CacheConnector {
 
-  private final RedisOperations<String, CovidDataResponse> redisOperations;
+  @Autowired
+  private final RedisOperations<String, JsonRootBean> redisOperations;
+
 
   @Autowired
-  public CacheConnectorImpl(final RedisOperations<String, CovidDataResponse> redisOperations) {
+  public CacheConnectorImpl(final RedisOperations<String, JsonRootBean> redisOperations) {
     this.redisOperations = redisOperations;
   }
 
   @Override
-  public CovidDataResponse get(final String key) {
-    CovidDataResponse covidDataResponse = null;
+  public JsonRootBean get(final String key) {
+    JsonRootBean covidDataResponse = null;
     try {
-      covidDataResponse = redisOperations.opsForValue().get(key);
+      covidDataResponse = (redisOperations.opsForValue().get(key));
     } catch (Exception e) {
 
       log.error("Exception occurred while fetching covid data : {} : {} ", key, e);
@@ -31,7 +34,7 @@ public class CacheConnectorImpl implements CacheConnector {
   }
 
   @Override
-  public CovidDataResponse put(final String key, final CovidDataResponse covidDataResponse) {
+  public JsonRootBean put(final String key, final JsonRootBean covidDataResponse) {
     try {
       redisOperations.opsForValue().set(key, covidDataResponse);
     } catch (Exception e) {
@@ -41,8 +44,8 @@ public class CacheConnectorImpl implements CacheConnector {
   }
 
   @Override
-  public List<CovidDataResponse> multiGet(final List<String> keys) {
-    List<CovidDataResponse> covidDataResponseList = null;
+  public List<JsonRootBean> multiGet(final List<String> keys) {
+    List<JsonRootBean> covidDataResponseList = null;
     try {
       covidDataResponseList = redisOperations.opsForValue().multiGet(keys);
     } catch (Exception e) {

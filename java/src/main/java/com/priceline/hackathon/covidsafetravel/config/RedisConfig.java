@@ -1,6 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.config;
 
 import com.priceline.hackathon.covidsafetravel.domain.CovidDataResponse;
+import com.priceline.hackathon.covidsafetravel.model.JsonRootBean;
 import io.lettuce.core.ClientOptions;
 import io.lettuce.core.TimeoutOptions;
 import io.lettuce.core.resource.ClientResources;
@@ -15,6 +16,8 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 import org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration;
 import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
@@ -67,13 +70,20 @@ public class RedisConfig {
   }
 
   @Bean
-  public RedisOperations<String, CovidDataResponse> redisOperations(
+  public RedisOperations<String, JsonRootBean> redisOperations(
       final RedisConnectionFactory connectionFactory) {
 
-    RedisTemplate<String, CovidDataResponse> redisTemplate = new RedisTemplate<>();
+    RedisTemplate<String, JsonRootBean> redisTemplate = new RedisTemplate<>();
     redisTemplate.setConnectionFactory(connectionFactory);
+    redisTemplate.setDefaultSerializer(new GenericJackson2JsonRedisSerializer());
     redisTemplate.setKeySerializer(new StringRedisSerializer());
-    // redisTemplate.setValueSerializer(serializer);
+    redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+    redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+    redisTemplate.setHashValueSerializer(new GenericJackson2JsonRedisSerializer());
     return redisTemplate;
   }
+
+
+
+
 }
