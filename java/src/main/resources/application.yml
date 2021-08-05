@@ -9,3 +9,15 @@ supply-config:
     grant-type: client_credentials
  base-url: https://test.api.amadeus.com/v1/
  travel-restrictions: duty-of-care/diseases/covid19-area-report
+
+ spring:
+   datasource:
+     url: jdbc:h2:mem:testdb
+     driverClassName: org.h2.Driver
+     username: sa
+     password: password
+   jpa:
+     database-platform: org.hibernate.dialect.H2Dialect
+   h2:
+     console:
+       enabled: true
