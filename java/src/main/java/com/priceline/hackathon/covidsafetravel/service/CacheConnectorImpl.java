@@ -1,7 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.service;
 
 import com.priceline.hackathon.covidsafetravel.domain.CovidDataResponse;
-import com.priceline.hackathon.covidsafetravel.model.JsonRootBean;
+import com.priceline.hackathon.covidsafetravel.domain.restrictions.TravelRestrictionsResponseContainer;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,17 +13,17 @@ import org.springframework.stereotype.Service;
 public class CacheConnectorImpl implements CacheConnector {
 
   @Autowired
-  private final RedisOperations<String, JsonRootBean> redisOperations;
+  private final RedisOperations<String, TravelRestrictionsResponseContainer> redisOperations;
 
 
   @Autowired
-  public CacheConnectorImpl(final RedisOperations<String, JsonRootBean> redisOperations) {
+  public CacheConnectorImpl(final RedisOperations<String, TravelRestrictionsResponseContainer> redisOperations) {
     this.redisOperations = redisOperations;
   }
 
   @Override
-  public JsonRootBean get(final String key) {
-    JsonRootBean covidDataResponse = null;
+  public TravelRestrictionsResponseContainer get(final String key) {
+    TravelRestrictionsResponseContainer covidDataResponse = null;
     try {
       covidDataResponse = (redisOperations.opsForValue().get(key));
     } catch (Exception e) {
@@ -34,7 +34,7 @@ public class CacheConnectorImpl implements CacheConnector {
   }
 
   @Override
-  public JsonRootBean put(final String key, final JsonRootBean covidDataResponse) {
+  public TravelRestrictionsResponseContainer put(final String key, final TravelRestrictionsResponseContainer covidDataResponse) {
     try {
       redisOperations.opsForValue().set(key, covidDataResponse);
     } catch (Exception e) {
@@ -44,8 +44,8 @@ public class CacheConnectorImpl implements CacheConnector {
   }
 
   @Override
-  public List<JsonRootBean> multiGet(final List<String> keys) {
-    List<JsonRootBean> covidDataResponseList = null;
+  public List<TravelRestrictionsResponseContainer> multiGet(final List<String> keys) {
+    List<TravelRestrictionsResponseContainer> covidDataResponseList = null;
     try {
       covidDataResponseList = redisOperations.opsForValue().multiGet(keys);
     } catch (Exception e) {

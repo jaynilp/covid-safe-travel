@@ -1,14 +1,14 @@
 package com.priceline.hackathon.covidsafetravel.service;
 
 import com.priceline.hackathon.covidsafetravel.domain.CovidDataResponse;
-import com.priceline.hackathon.covidsafetravel.model.JsonRootBean;
+import com.priceline.hackathon.covidsafetravel.domain.restrictions.TravelRestrictionsResponseContainer;
 import java.util.List;
 
 public interface CacheConnector {
 
-  List<JsonRootBean> multiGet(final List<String> keys);
+  List<TravelRestrictionsResponseContainer> multiGet(final List<String> keys);
 
-  JsonRootBean get(final String key);
+  TravelRestrictionsResponseContainer get(final String key);
 
-  JsonRootBean put(final String key, final JsonRootBean covidDataResponse);
+  TravelRestrictionsResponseContainer put(final String key, final TravelRestrictionsResponseContainer covidDataResponse);
 }

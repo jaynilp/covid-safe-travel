@@ -1,17 +1,16 @@
 /* Copyright 2021 freecodeformat.com */
-package com.priceline.hackathon.covidsafetravel.model;
+package com.priceline.hackathon.covidsafetravel.domain.restrictions;
 import java.io.Serializable;
 import java.util.Date;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 /* Time: 2021-08-05 13:31:23 @author freecodeformat.com @website http://www.freecodeformat.com/json2javabean.php */
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class AreaRestrictions implements Serializable {
+public class Transportation implements Serializable {
 
     private Date date;
     private String text;
-    @JsonProperty("restrictionType")
-    private String restrictionType;
+    @JsonProperty("isBanned")
+    private String isBanned;
     public void setDate(Date date) {
          this.date = date;
      }
@@ -26,11 +25,11 @@ public class AreaRestrictions implements Serializable {
          return text;
      }
 
-    public void setRestrictionType(String restrictionType) {
-         this.restrictionType = restrictionType;
+    public void setIsBanned(String isBanned) {
+         this.isBanned = isBanned;
      }
-     public String getRestrictionType() {
-         return restrictionType;
+     public String getIsBanned() {
+         return isBanned;
      }
 
 }

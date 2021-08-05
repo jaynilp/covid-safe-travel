@@ -1,5 +1,5 @@
 /* Copyright 2021 freecodeformat.com */
-package com.priceline.hackathon.covidsafetravel.model;
+package com.priceline.hackathon.covidsafetravel.domain.restrictions;
 import java.io.Serializable;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;

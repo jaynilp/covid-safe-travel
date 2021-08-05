@@ -1,7 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.config;
 
 import com.priceline.hackathon.covidsafetravel.domain.CovidDataResponse;
-import com.priceline.hackathon.covidsafetravel.model.JsonRootBean;
+import com.priceline.hackathon.covidsafetravel.domain.restrictions.TravelRestrictionsResponseContainer;
 import io.lettuce.core.ClientOptions;
 import io.lettuce.core.TimeoutOptions;
 import io.lettuce.core.resource.ClientResources;
@@ -70,10 +70,10 @@ public class RedisConfig {
   }
 
   @Bean
-  public RedisOperations<String, JsonRootBean> redisOperations(
+  public RedisOperations<String, TravelRestrictionsResponseContainer> redisOperations(
       final RedisConnectionFactory connectionFactory) {
 
-    RedisTemplate<String, JsonRootBean> redisTemplate = new RedisTemplate<>();
+    RedisTemplate<String, TravelRestrictionsResponseContainer> redisTemplate = new RedisTemplate<>();
     redisTemplate.setConnectionFactory(connectionFactory);
     redisTemplate.setDefaultSerializer(new GenericJackson2JsonRedisSerializer());
     redisTemplate.setKeySerializer(new StringRedisSerializer());

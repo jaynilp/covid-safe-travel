@@ -1,11 +1,11 @@
 /* Copyright 2021 freecodeformat.com */
-package com.priceline.hackathon.covidsafetravel.model;
+package com.priceline.hackathon.covidsafetravel.domain.restrictions;
 
 import java.io.Serializable;
 import org.codehaus.jackson.annotate.JsonProperty;
 
 /* Time: 2021-08-05 13:31:23 @author freecodeformat.com @website http://www.freecodeformat.com/json2javabean.php */
-public class JsonRootBean implements Serializable {
+public class TravelRestrictionsResponseContainer implements Serializable {
 
   @JsonProperty("meta")
     private Meta meta;

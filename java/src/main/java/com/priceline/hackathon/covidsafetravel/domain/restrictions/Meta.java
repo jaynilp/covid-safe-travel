@@ -1,5 +1,5 @@
 /* Copyright 2021 freecodeformat.com */
-package com.priceline.hackathon.covidsafetravel.model;
+package com.priceline.hackathon.covidsafetravel.domain.restrictions;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

@@ -1,0 +1,11 @@
+memorystore.host: localhost
+memorystore.port: 6379
+
+supply-config:
+ auth:
+    url: https://test.api.amadeus.com/v1/security/oauth2/token
+    client-id: lV1tENnMOqpujUKObc2x2fQ7zHASAntf
+    client-secret: 4pQA5koPq9skYODw
+    grant-type: client_credentials
+ base-url: https://test.api.amadeus.com/v1/
+ travel-restrictions: duty-of-care/diseases/covid19-area-report
