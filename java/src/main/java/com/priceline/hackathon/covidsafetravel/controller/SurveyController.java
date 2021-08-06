@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SurveyController {
 
+  private static long dataId = 100l;
+
   @Autowired SurveyService surveyService;
 
   /*@GetMapping(value = "/covidSurvey", produces = "application/json")
@@ -45,6 +47,7 @@ public class SurveyController {
   @PostMapping(value = "/covidSurvey", produces = "application/json")
   @ResponseBody
   public CovidSurvey createCovidSurvey(@RequestBody CovidSurvey covidSurvey) {
+    covidSurvey.setId(dataId ++);
     return surveyService.addCovidSurvey(covidSurvey);
   }
 }

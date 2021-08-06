@@ -15,7 +15,7 @@ import javax.persistence.TemporalType;
 public class CovidSurvey {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  // @GeneratedValue(strategy = GenerationType.IDENTITY)
   Long id;
 
   String name;
