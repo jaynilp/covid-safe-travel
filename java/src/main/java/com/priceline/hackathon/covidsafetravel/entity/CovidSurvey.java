@@ -30,6 +30,8 @@ public class CovidSurvey {
 
   String covidReview;
 
+  private boolean recommend;
+
   public Long getId() {
     return id;
   }
@@ -76,5 +78,13 @@ public class CovidSurvey {
 
   public void setCovidReview(String covidReview) {
     this.covidReview = covidReview;
+  }
+
+  public boolean isRecommend() {
+    return recommend;
+  }
+
+  public void setRecommend(boolean recommend) {
+    this.recommend = recommend;
   }
 }
