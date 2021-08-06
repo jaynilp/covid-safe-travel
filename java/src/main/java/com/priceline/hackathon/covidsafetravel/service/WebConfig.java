@@ -13,7 +13,8 @@ public class WebConfig implements WebMvcConfigurer {
   public void addCorsMappings(CorsRegistry registry) {
 
     registry
-        .addMapping("/covidDetails")
+        .addMapping("/**")
+        .allowedMethods("POST", "GET")
         .allowedOrigins("https://www.priceline.com/", "http://localhost:3000");
   }
 }
