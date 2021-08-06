@@ -31,4 +31,10 @@ public class SurveyService {
 
     return new SurveyDetailsContainer(listOfCovidSurveys);
   }
+
+  public CovidSurvey addCovidSurvey(CovidSurvey covidSurvey) {
+    CovidSurvey savedCovidSurvey = covidSurveyRespository.save(covidSurvey);
+
+    return savedCovidSurvey;
+  }
 }
