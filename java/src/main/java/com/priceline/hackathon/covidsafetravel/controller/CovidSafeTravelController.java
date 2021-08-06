@@ -42,7 +42,7 @@ public class CovidSafeTravelController {
                         cacheConnector.put(key, travelRestrictionsResponseContainer1)))
             : Mono.just(travelRestrictionsResponseContainer);
 
-    SurveyDetailsContainer covidSurveyDetails = surveyService.getCovidSurveyDetails();
+    SurveyDetailsContainer covidSurveyDetails = surveyService.getCovidSurveyForDestination(country);
     return new CovidSafeContainer(
         covidSurveyDetails, travelRestrictionsResponseContainerMono.block());
   }
