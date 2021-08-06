@@ -5,5 +5,5 @@ CREATE TABLE COVID_SURVEY(ID number primary key,
                           SOURCE varchar2(30),
                           DESTINATION varchar2(30),
                           CREATED_DATE date default sysdate not null,
-                          COVID_REVIEW varchar2(100)
+                          COVID_REVIEW varchar2(2000)
 );
