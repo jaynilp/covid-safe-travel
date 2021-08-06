@@ -1,8 +1,7 @@
 package com.priceline.hackathon.covidsafetravel.controller;
 
-import com.priceline.hackathon.covidsafetravel.entity.CovidSurvey;
+import com.priceline.hackathon.covidsafetravel.domain.SurveyDetailsContainer;
 import com.priceline.hackathon.covidsafetravel.service.SurveyService;
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,11 +13,30 @@ public class SurveyController {
 
   @Autowired SurveyService surveyService;
 
+  /*@GetMapping(value = "/covidSurvey", produces = "application/json")
+  @ResponseBody
+  public SurveyDetailsContainer getCovidSurvey(@RequestParam String source) {
+
+    SurveyDetailsContainer covidSurveyForSource = surveyService.getCovidSurveyForSource(source);
+
+    return covidSurveyForSource;
+  }*/
+
+  @GetMapping(value = "/covidSurveyForDestination", produces = "application/json")
+  @ResponseBody
+  public SurveyDetailsContainer getCovidSurvey(@RequestParam String destination) {
+
+    SurveyDetailsContainer covidSurveyForSource =
+        surveyService.getCovidSurveyForSource(destination);
+
+    return covidSurveyForSource;
+  }
+
   @GetMapping(value = "/covidSurvey", produces = "application/json")
   @ResponseBody
-  public List<CovidSurvey> getCovidSurvey(@RequestParam String source) {
+  public SurveyDetailsContainer getCovidSurvey() {
 
-    List<CovidSurvey> covidSurveyForSource = surveyService.getCovidSurveyForSource(source);
+    SurveyDetailsContainer covidSurveyForSource = surveyService.getCovidSurveyDetails();
 
     return covidSurveyForSource;
   }

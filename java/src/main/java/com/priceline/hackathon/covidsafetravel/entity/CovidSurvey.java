@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "COVID_SURVEY")
@@ -23,6 +25,7 @@ public class CovidSurvey {
   String destination;
 
   @Column(name = "CREATED_DATE")
+  @Temporal(TemporalType.DATE)
   Date date;
 
   String covidReview;
@@ -59,8 +62,8 @@ public class CovidSurvey {
     this.destination = destination;
   }
 
-  public Date getDate() {
-    return date;
+  public String getDate() {
+    return date.toString();
   }
 
   public void setDate(Date date) {
