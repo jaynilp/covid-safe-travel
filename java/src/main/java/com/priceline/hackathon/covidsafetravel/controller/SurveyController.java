@@ -1,9 +1,11 @@
 package com.priceline.hackathon.covidsafetravel.controller;
 
 import com.priceline.hackathon.covidsafetravel.domain.SurveyDetailsContainer;
+import com.priceline.hackathon.covidsafetravel.entity.CovidSurvey;
 import com.priceline.hackathon.covidsafetravel.service.SurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,8 +38,12 @@ public class SurveyController {
   @ResponseBody
   public SurveyDetailsContainer getCovidSurvey() {
 
-    SurveyDetailsContainer covidSurveyForSource = surveyService.getCovidSurveyDetails();
+    return surveyService.getCovidSurveyDetails();
+  }
 
-    return covidSurveyForSource;
+  @PostMapping(value = "/covidSurvey", produces = "application/json")
+  @ResponseBody
+  public CovidSurvey createCovidSurvey(@RequestParam CovidSurvey covidSurvey) {
+    return surveyService.addCovidSurvey(covidSurvey);
   }
 }
